@@ -1,0 +1,51 @@
+=== STAGE A: 起動直後バッファ吸出し 4秒 ===
+  len=0
+  tail300=
+
+=== STAGE B: コマンド刺激 ===
+  send=\r\n                           resp=\r\n\r\n\r\nlogin: 
+  send=?\r\n                          resp=?\r\n\r\n\r\nlogin: 
+  send=help\r\n                       resp=help\r\n\r\n\r\nlogin: 
+  send=HELP\r\n                       resp=HELP\r\n\r\n\r\nlogin: 
+  send=VER\r\n                        resp=VER\r\n\r\n\r\nlogin: 
+  send=ver\r\n                        resp=ver\r\n\r\n\r\nlogin: 
+  send=STATUS\r\n                     resp=STATUS\r\n\r\n\r\nlogin: 
+  send=status\r\n                     resp=status\r\n\r\n\r\nlogin: 
+  send=RESET\r\n                      resp=RESET\r\n\r\n\r\nlogin: 
+  send=PW\r\n                         resp=PW\r\n\r\n\r\n\r\nlogin: 
+  send=PASS\r\n                       resp=PASS\r\n\r\n\r\nlogin: 
+  send=INIT\r\n                       resp=INIT\r\n\r\n\r\nlogin: 
+  send=CONFIG\r\n                     resp=CONFIG\r\n\r\n\r\nlogin: 
+  send=                              resp=^[
+  send=                              resp=^C
+  send=                              resp=
+  send=[A                            resp=^[[A
+
+=== STAGE C: Enter を連打してログインプロンプト誘発 ===
+  after5xEnter: \r\n\r\n\r\nlogin: \r\n\r\n\r\nlogin: \r\n\r\n\r\nlogin: \r\n\r\n\r\nlogin: \r\n\r\n\r\nlogin: 
+
+=== STAGE D: login: 検出 → 認証総当たり ===
+  [1] root/'' -> FAIL: \r\nlogin: \r\n\r\nlogin: 
+  [2] root/'root' -> FAIL: \r\nlogin: 
+  [3] root/'isa' -> FAIL: \r\nlogin: 
+  [4] root/'keiko' -> FAIL: \r\nlogin: 
+  [5] root/'admin' -> FAIL: \r\nlogin: 
+  [6] root/'password' -> FAIL: \r\nlogin: 
+  [7] root/'dn1000' -> FAIL: \r\n\r\nlogin: 
+  [8] root/'dn-1000' -> FAIL: \r\nlogin: 
+  [9] root/'dn1000s' -> FAIL: \r\nlogin: 
+  [10] root/'1234' -> FAIL: \r\nlogin: 
+  [11] root/'0000' -> no Password: prompt. buf=login: root\r\n\r\n\r\n
+  [12] root/'9999' -> FAIL: \r\nlogin: 
+  [13] admin/'admin' -> no Password: prompt. buf=admin\r\n\r\n\r\nlogin: 
+  [14] admin/'password' -> no Password: prompt. buf=admin\r\n\r\n\r\n\r\nlogin: 
+  [15] admin/'isa' -> no Password: prompt. buf=admin\r\n\r\n\r\nlogin: 
+  [16] admin/'keiko' -> no Password: prompt. buf=admin\r\n\r\n\r\nlogin: 
+  [17] admin/'' -> no Password: prompt. buf=admin\r\n\r\n\r\nlogin: 
+  [18] admin/'1234' -> no Password: prompt. buf=admin\r\n\r\n\r\nlogin: 
+  [19] keiko/'keiko' -> no Password: prompt. buf=keiko\r\n\r\n\r\nlogin: 
+  [20] isa/'isa' -> no Password: prompt. buf=isa\r\n\r\n\r\nlogin: 
+  [21] user/'user' -> no Password: prompt. buf=user\r\n\r\n\r\nlogin: 
+  [22] guest/'guest' -> no Password: prompt. buf=guest\r\n\r\n\r\nlogin: 
+  [23] guest/'' -> no Password: prompt. buf=guest\r\n\r\n\r\nlogin: 
+  [24] manager/'manager' -> no Password: prompt. buf=manager\r\n\r\n\r\nlogin: 

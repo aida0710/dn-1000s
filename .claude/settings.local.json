@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python dn1000s_tool.py list)",
+      "Bash(pip install *)",
+      "WebFetch(domain:isa-j.co.jp)",
+      "WebFetch(domain:online.plathome.co.jp)"
+    ]
+  }
+}

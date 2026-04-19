@@ -1,0 +1,98 @@
+
+
+Clear system parameters on IIC EEPROM....Done!
+
+
+
+***  Configure the System parameters ***
+
+Network Configuration
+
+IP Address [192.168.1.1]> 192.168.1.150
+Gateway IP [192.168.1.254]> 192.168.1.1
+Subnet Mask [255.255.255.0]> 255.255.255.0
+TFTP Server IP [192.168.1.250]> 192.168.1.250
+TFTP Boot File [c:\tftp\firm]> c:\tftp\firm
+Ethernet Address [00:A0:66:00:00:00] > 00:A0:66:0F:59:52
+
+Write system parameters to IIC EEPROM...Done!
+
+
+
+Read system parameters from IIC EEPROM...Done!
+
++==================================================+
+|           System Configuration Table             |
++==================================================+
+|             Network Configuration                |
++--------------------------------------------------+
+|  IP Address : 192.168.1.150                      |
+|  Gateway IP : 192.168.1.1                        |
+|  Subnet Mask : 255.255.255.0                     |
+|  TFTP Server IP : 192.168.1.250                  |
+|  TFTP Boot File : c:\tftp\firm                   |
+|  Ethernet Address : 00:a0:66:0f:59:52            |
++==================================================+
+
+
+
+
+----------------------------------------------------
+SBC8023 BIOS v00.022.0D (c) 2000-2005 ISA Co., Ltd.
+Wed Oct 26 10:43:14 UTC 2005 (0003)
+----------------------------------------------------
+                                                    
+
+BIOS(0)> 
+
+Starting autoboot...
+Trying rom...
+Compressed image located at 0x2010000
+Uncompressing Linux.............................................................................. 2450208 bytes decompress done! 
+Now booting image...
+
+Linux version 2.2.14 ( ISA@Linuxpc ) #5882 Tue Jul 15 10:02:36 JST 2008
+Samsung-S3C4 series device are selected
+Memory Usage : 
+	 TEXT     = 0xc0009000 - 0xc00ace30
+	 DATA     = 0xc00ace30 - 0xc00b9b20
+	 ROMFS    = 0xc00b9b20 - 0xc0408000
+	 BSS      = 0xc0408000 - 0xc041dd64
+	 FREE MEM = 0xc041dd64 - 0xc1000000
+Calibrating delay loop... 6.08 BogoMIPS
+Memory: 12004k/16M available (656k code, 3404k reserved, 316k data, 4k init)
+Dentry hash table entries: 2048 (order 2, 16k)
+Buffer cache hash table entries: 16384 (order 4, 64k)
+Page cache hash table entries: 4096 (order 2, 16k)
+POSIX conformance testing by UNIFIX
+Linux NET4.0 for Linux 2.2
+Based upon Swansea University Computer Society NET3.039
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP
+TCP: Hash tables configured (ehash 16384 bhash 16384)
+Starting kswapd v 1.1.1.1 
+I2C driver v1.0, (c) 2001 ISA Co. Ltd.
+GPIO driver v1.0, (c) 2001 ISA Co. Ltd.
+Serial driver for S3C4XXX series device version 1.00 with
+	 ttyS00 at 0x380d000 (irq = 5) is a S3C4XXX
+	 ttyS01 at 0x380e000 (irq = 7) is a S3C4XXX
+RAM disk driver initialized:  16 RAM disks of 4096K size
+BLKMEM 1 disk images:
+	 0: C00B9B20-C040831F (RO)
+PPP: version 2.3.7 (demand dialling)
+TCP compression code copyright 1989 Regents of the University of California
+PPP line discipline registered.
+eth_s3c4.c : v1.0.0 25/Apr/2000
+eth0  00:a0:66:0f:59:52 
+Main: Initialising MTD Drivers
+ISA flash device: 400000 at 2000000
+SBC8023 mapped flash: Probing for AMD compatible flash...
+SBC8023 mapped flash: Found 1 x 16Mb SST39VF160 compatible at 0x0
+SBC8023 mapped flash: Found 1 x 16Mb SST39VF160 compatible at 0x200000
+VFS: Mounted root (romfs filesystem).
+Freeing unused kernel memory: 4k init
+----------------------------------------------------
+DN1000 v03.077.4D (c) 2000-2008 ISA Co., Ltd.
+Wed Jul 16 11:37:42 JST 2008
+----------------------------------------------------
+Expand RAM file system image

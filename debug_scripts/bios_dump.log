@@ -1,0 +1,118 @@
+
+===== ? =====
+
+===== help =====
+
+===== h =====
+Trying rom...
+Compressed image 
+===== info =====
+located at 0x2010000
+Uncompressing Linux......
+===== print =====
+...
+===== printenv =====
+...
+===== env =====
+....
+===== show =====
+...
+===== show config =====
+....
+===== show net =====
+...
+===== show ip =====
+....
+===== show eth0 =====
+....
+===== ifconfig =====
+...
+===== ifconfig eth0 =====
+...
+===== net =====
+....
+===== network =====
+....
+===== version =====
+...
+===== ver =====
+...
+===== cat /etc/passwd =====
+...
+===== cat /etc/shadow =====
+...
+===== cat /etc/network/interfaces =====
+....
+===== cat /etc/resolv.conf =====
+...
+===== cat /etc/hostname =====
+....
+===== cat /etc/issue =====
+....
+===== cat /etc/config =====
+... 2450208 bytes decompress done! 
+Now booting image...
+
+Linux version 2.2.14 ( ISA@Linuxpc ) #5882 Tue Jul 15 10:02:36 JST 2008
+Samsung-S3C4 series device are selected
+Memory Usage : 
+	 TEXT     = 0xc0009000 - 0xc00ace30
+	 DATA     = 0xc00ace30 - 0xc00b9b20
+	 ROMFS    = 0xc00b9b20 - 0xc0408000
+	 BSS      = 0xc0408000 - 0xc041dd64
+	 F
+===== ls /etc =====
+REE MEM = 0xc041dd64 - 0xc1000000
+Calibrating delay loop... 6.08 BogoMIPS
+Memory: 12004k/16M available (656k code, 3404k reserved, 316k data, 4k init)
+Dentry hash table entries: 2048 (order 2, 16k)
+Buffer cache hash table entries: 16384 (order 4, 64k)
+Page cache hash table entries: 4096 (order 2, 16k)
+POSIX conformance testing by UNIFIX
+Linux NET4.0 for Linux 2.2
+Based upon Swansea University Computer Society NET3.039
+NET4: Linux TCP/IP 1.0 for NET4.0
+IP Protocols: ICMP, UDP, TCP
+
+===== ls / =====
+TCP: Hash tables configured (ehash 16384 bhash 16384)
+Starting kswapd v 1.1.1.1 
+I2C driver v1.0, (c) 2001 ISA Co. Ltd.
+GPIO driver v1.0, (c) 2001 ISA Co. Ltd.
+Serial driver for S3C4XXX series device version 1.00 with
+	 ttyS00 at 0x380d000 (irq = 5) is a S3C4XXX
+	 ttyS01 at 0x380e000 (irq = 7) is a S3C4XXX
+RAM disk driver initialized:  16 RAM disks of 4096K size
+BLKMEM 1 disk images:
+	 0: C00B9B20-C040831F (RO)
+PPP: version 2.3.7 (demand dialling)
+TCP compression code copyright 1989 Regents of the University of California
+PPP line discipline registered.
+eth_s3c4.c : v1.0.0 25/Apr/2000
+eth0  00:00:00:00:00:00 
+Main: Initialising MTD Drivers
+ISA flash device: 400000 at 2000000
+SBC8023 mapped flash: Probing for AMD compatible flash...
+SBC8023 mapped flash: Found 1 x 16Mb SST39VF160 compatible at 0x0
+SBC8023 mapped flash: Found 1 x 16Mb SST39VF160 compatible at 0x200000
+
+===== pwd =====
+VFS: Mounted root (romfs filesystem).
+Freeing unused kernel memory: 4k init
+
+===== mem =====
+em
+----------------------------------------------------
+DN1000 v03.077.4D (c) 2000-2008 ISA Co., Ltd.
+Wed Jul 16 11:37:42 JST 2008
+----------------------------------------------------
+
+===== bootargs =====
+bootargs
+Expand RAM file system image
+
+===== set =====
+set
+
+===== setenv =====
+setenv

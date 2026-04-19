@@ -1,0 +1,316 @@
+
+===== h =====
+h
+
+
+===== help =====
+help
+
+
+===== H =====
+H
+
+
+===== HELP =====
+HELP
+
+
+===== ? =====
+?
+
+
+===== ?? =====
+??
+
+
+===== . =====
+.
+
+
+===== / =====
+/
+
+
+===== config =====
+config
+
+
+===== cfg =====
+cfg
+
+
+===== setup =====
+setup
+
+
+===== init =====
+init
+
+
+===== initialize =====
+initialize
+
+
+===== initial =====
+initial
+
+
+===== reset =====
+reset
+
+
+===== clear =====
+clear
+
+
+===== default =====
+default
+Setup system configuration
+
+
+===== defaults =====
+flt
+
+===== factory =====
+factory
+
+
+===== show =====
+show
+
+
+===== info =====
+info
+Setup network configuration : eth0
+
+
+===== ver =====
+ver
+
+
+===== version =====
+version
+SIOCSIFBRDADDR: Unknown error -99
+SIOCSIFNETMASK: Unknown error -99
+
+
+===== list =====
+list
+
+
+===== print =====
+print
+SIOCADDRT: Unknown error -22
+
+
+===== status =====
+status
+
+
+===== net =====
+net
+Initial shared memory.
+
+
+===== network =====
+network
+
+
+===== ifconfig =====
+ifconfig
+
+
+===== ip =====
+ip
+
+
+===== mac =====
+mac
+
+
+===== eth0 =====
+eth0
+
+
+===== mem =====
+mem
+
+
+===== md =====
+md
+
+
+===== mw =====
+mw
+
+login: 
+
+===== ee =====
+ee
+
+login: 
+
+===== eeprom =====
+eeprom
+
+login: 
+
+===== write =====
+write
+
+login: 
+
+===== read =====
+read
+
+
+===== save =====
+save
+
+
+===== a =====
+a
+
+login: 
+
+===== b =====
+b
+
+login: 
+
+===== c =====
+c
+
+login: 
+
+===== d =====
+d
+
+login: 
+
+===== e =====
+e
+
+login: 
+
+===== i =====
+i
+
+login: 
+
+===== l =====
+l
+
+
+login: 
+
+===== n =====
+n
+
+login: 
+
+===== p =====
+p
+
+login: 
+
+===== q =====
+q
+
+login: 
+
+===== r =====
+r
+
+login: 
+
+===== s =====
+s
+
+login: 
+
+===== t =====
+t
+
+login: 
+
+===== w =====
+w
+
+login: 
+
+===== x =====
+x
+
+login: 
+
+===== 0 =====
+0
+
+login: 
+
+===== 1 =====
+1
+
+
+login: 
+
+===== 2 =====
+2
+
+login: 
+
+===== 3 =====
+3
+
+login: 
+
+===== 4 =====
+4
+
+login: 
+
+===== 5 =====
+5
+
+login: 
+
+===== 6 =====
+6
+
+login: 
+
+===== 7 =====
+7
+
+login: 
+
+===== 8 =====
+8
+
+login: 
+
+===== 9 =====
+9
+
+login: 
+
+===== boot =====
+boot
+
+login: 
+
+===== go =====
+go
+
+
+
+===== start =====
+start
+
+login: 
+
+===== run =====
+run
+
+login: 

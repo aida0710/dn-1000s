@@ -1,0 +1,51 @@
+
+
+Clear system parameters on IIC EEPROM....Done!
+
+
+
+***  Configure the System parameters ***
+
+Network Configuration
+
+IP Address [192.168.1.1]> 192.168.1.150
+Gateway IP [192.168.1.254]> 192.168.1.1
+Subnet Mask [255.255.255.0]> 255.255.255.0
+TFTP Server IP [192.168.1.250]> 192.168.1.250
+TFTP Boot File [c:\tftp\firm]> c:\tftp\firm
+Ethernet Address [00:A0:66:00:00:00] > 00:A0:66:0F:59:52
+
+Write system parameters to IIC EEPROM...Done!
+
+
+
+Read system parameters from IIC EEPROM...Done!
+
++==================================================+
+|           System Configuration Table             |
++==================================================+
+|             Network Configuration                |
++--------------------------------------------------+
+|  IP Address : 0.192.168.1                        |
+|  Gateway IP : 192.168.1.1                        |
+|  Subnet Mask : 255.255.255.0                     |
+|  TFTP Server IP : 192.168.1.250                  |
+|  TFTP Boot File : c:\tftp\firm                   |
+|  Ethernet Address : 00:a0:66:0f:59:52            |
++==================================================+
+
+
+
+
+----------------------------------------------------
+SBC8023 BIOS v00.022.0D (c) 2000-2005 ISA Co., Ltd.
+Wed Oct 26 10:43:14 UTC 2005 (0003)
+----------------------------------------------------
+                                                    
+
+BIOS(0)> 
+
+Starting autoboot...
+Trying rom...
+Compressed image located at 0x2010000
+Uncompressing Linux..........................................................................
