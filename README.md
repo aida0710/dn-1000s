@@ -6,6 +6,10 @@ LAN 上の機器に rsh プロトコル (TCP 514) で直接コマンドを送り
 
 製品の解析から復旧、ライブラリ完成までの経緯は [article.md](article.md) にまとめてあります。
 
+
+| 正面 | 裏 |
+|:-:|:-:|
+| <img width="400" src="https://github.com/user-attachments/assets/b3287027-647e-4dff-b876-2dd986b28cb1" /> | <img width="400" src="https://github.com/user-attachments/assets/56b46963-4092-4fc3-a84b-61ba8123d747" /> |
 ---
 
 ## 対応機器
